@@ -9,7 +9,7 @@ $server = rand(1,4);
 if(!in_array($size, $size_arr)){
     $size = 'large';
 }
-$url = 'https://ws'.$server.'.sinaimg.cn/'.$size.'/'.$sina_img.'.jpg';
+$url = 'https://tva'.$server.'.sinaimg.cn/'.$size.'/'.$sina_img.'.jpg';
 //解析结果
 $result=array("code"=>"200","imgurl"=>"$url");
  
